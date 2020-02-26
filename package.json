@@ -1,0 +1,32 @@
+{
+  "name": "object-to-url-query",
+  "version": "1.0.0",
+  "description": "A utility library for converting objects to url queries",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codenaz/object-to-url-query"
+  },
+  "keywords": [
+    "url",
+    "queries",
+    "query",
+    "conversion"
+  ],
+  "author": "Nwakwoke Patrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codenaz/object-to-url-query/issues"
+  },
+  "homepage": "https://github.com/codenaz/object-to-url-query#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "jest": "^25.1.0"
+  }
+}
