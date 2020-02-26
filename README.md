@@ -22,6 +22,8 @@ const objectQuery = {
 };
 
 const urlQueryString = objectToUrlQuery(objectQuery);
+
+console.log(urlQueryString); //'name=Patrick&age=15&skill=Software%20Enginner'
 ```
 
 #### cjs
@@ -36,4 +38,6 @@ var objectQuery = {
 };
 
 var urlQueryString = objectToUrlQuery(objectQuery);
+
+console.log(urlQueryString); //'name=Patrick&age=15&skill=Software%20Enginner'
 ```
